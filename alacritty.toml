@@ -1,18 +1,19 @@
 import = [
- "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+ "~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"
 ]
 
 [env]
 TERM = "xterm-256color"
-
-
-
-
  
-
-colors = 'gruvbox_material_hard_dark'
+colors = 'gruvbox_material_medium_dark'
 
 [font]
 normal.family = "MesloLGS Nerd Font Mono"
+size = 16 
 
+[window]
+decorations = "Transparent"
+opacity = 0.6
+
+startup_mode = "Fullscreen"
 
